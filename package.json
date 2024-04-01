@@ -1,6 +1,6 @@
 {
-  "name": "json-formatter-js",
-  "version": "2.4.0",
+  "name": "@sonallux/json-formatter-js",
+  "version": "0.0.1",
   "description": "JSON Formatter core library ",
   "main": "dist/json-formatter.cjs",
   "module": "dist/json-formatter.mjs",
@@ -36,7 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohsen1/json-formatter-js.git"
+    "url": "git+https://github.com/sonallux/json-formatter-js.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "json"
@@ -44,9 +47,9 @@
   "author": "Mohsen Azimi <me@azimi.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mohsen1/json-formatter-js/issues"
+    "url": "https://github.com/sonallux/json-formatter-js/issues"
   },
-  "homepage": "https://github.com/mohsen1/json-formatter-js#readme",
+  "homepage": "https://github.com/sonallux/json-formatter-js#readme",
   "devDependencies": {
     "@types/jest": "^24.0.19",
     "css-loader": "^3.2.0",
